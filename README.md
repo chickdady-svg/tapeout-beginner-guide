@@ -1,17 +1,20 @@
 # 《TapeOut 新手完全指南》协作仓库
 
-本仓库把原始 PDF 转换为按章节拆分的 Markdown，便于通过 GitHub Issue、分支和 Pull Request 多人协作。
+本仓库将指南整理为按章节拆分的 Markdown，便于通过 GitHub Issue、分支和 Pull Request 多人协作。
 
-当前内容是自动转换稿，**尚未完成独立校对**。正文中的注释可回溯到原 PDF 物理页码；遇到异常字形、断词、表格或图片问题时，请先核对 `source/original.pdf`，不要凭印象改写内容。
+当前版本已完成独立校对。正文中的 `<!-- source: ... p.N -->` 注释保留原稿物理页码的溯源映射；原始 PDF 未随公开仓库分发，详细验收报告也未公开分发。
 
 ## 仓库结构
 
-- `source/original.pdf`：原 PDF 的只读归档，不应修改或重新导出。
 - `docs/index.md`：Markdown 导航首页。
-- `docs/*.md`：按章节拆分的协作稿。
-- `docs/assets/`：从 PDF 抽取或按页保留的图片。
-- `manifest.md`：产出文件、原 PDF 页码和图片对应关系。
-- `preview/`：阶段 2 的第 1–3 页转换样本。
+- `docs/*.md`：按章节拆分并完成校对的正文。
+- `docs/assets/`：正文引用的图片资源。
+- `outputs/`：公开发布的更新版 PDF。
+- `work/build_updated_pdf.py`：统一生成更新版 PDF 的排版脚本。
+- `work/updated_page_ranges.json`：构建后实测的章节页码记录。
+- `manifest.md`：更新版页码、原稿溯源页码和图片对应关系。
+- `mkdocs.yml`：本地网站预览配置。
+- `CONTRIBUTING.md`：协作与修改规范。
 
 ## 在 GitHub 上阅读
 
@@ -19,7 +22,7 @@
 
 ## 更新版 PDF 与页码
 
-当前 Markdown 可通过 `work/build_updated_pdf.py` 统一排版为 [`outputs/tapeout-beginner-guide-updated.pdf`](outputs/tapeout-beginner-guide-updated.pdf)。该成品共 138 页，目录中的“更新版页码”以这份实际输出为准；括号内的“原稿页码”仅用于回溯只读归档 `source/original.pdf`，正文中的 source 注释没有因补充内容而改号。
+当前 Markdown 可通过 `work/build_updated_pdf.py` 统一排版为 [`outputs/tapeout-beginner-guide-updated.pdf`](outputs/tapeout-beginner-guide-updated.pdf)。该成品共 138 页，目录中的“更新版页码”以这份实际输出为准；括号内的“原稿页码”与正文中的 source 注释仅用于保留溯源映射，原始 PDF 未随公开仓库分发。补充内容没有改变原稿页码编号。
 
 第 4 章新增的《TapeOut DeWeb 生态靓号新手指南》在更新版第 55–57 页，实际占 3 页，不参与原稿页码。页码明细和双口径映射见 [`manifest.md`](manifest.md)。
 
