@@ -1,0 +1,25 @@
+site_name: TapeOut 新手完全指南
+docs_dir: docs
+theme:
+  name: mkdocs
+nav:
+  - 首页: index.md
+  - 前置内容与安全清单: 01-front-matter.md
+  - 收录作者与致谢（上）: 02-credits-a.md
+  - 收录作者与致谢（下）: 03-credits-b.md
+  - 速查、生态图与常见问题: 04-quick-reference.md
+  - 第 1 章: 05-chapter-01.md
+  - 第 2 章: 06-chapter-02.md
+  - 第 3 章: 07-chapter-03.md
+  - 第 4 章: 08-chapter-04.md
+  - 第 5 章（上）: 09-chapter-05-part-1.md
+  - 第 5 章（下）: 10-chapter-05-part-2.md
+  - 第 6 章: 11-chapter-06.md
+  - 第 7 章（上）: 12-chapter-07-part-1.md
+  - 第 7 章（下）: 13-chapter-07-part-2.md
+  - 第 8 章: 14-chapter-08.md
+  - 第 9 章: 15-chapter-09.md
+  - 第 10 章: 16-chapter-10.md
+  - 第 11 章: 17-chapter-11.md
+  - 第 12 章: 18-chapter-12.md
+  - 附录与版本记录: 19-appendices.md

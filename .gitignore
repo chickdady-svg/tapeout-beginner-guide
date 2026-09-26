@@ -1,0 +1,26 @@
+# Python and conversion workspace
+work/*
+!work/build_updated_pdf.py
+!work/updated_page_ranges.json
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# MkDocs build output
+site/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Model and package caches
+.cache/
+models/
+
+# Private source, review, and local preview materials
+source/
+review/
+preview/

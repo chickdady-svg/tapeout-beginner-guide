@@ -1,0 +1,87 @@
+{
+  "pdf": "outputs/tapeout-beginner-guide-updated.pdf",
+  "total_pages": 138,
+  "guide_pages": 3,
+  "guide_range": [
+    55,
+    57
+  ],
+  "files": {
+    "01-front-matter.md": [
+      1,
+      10
+    ],
+    "02-credits-a.md": [
+      11,
+      15
+    ],
+    "03-credits-b.md": [
+      16,
+      20
+    ],
+    "04-quick-reference.md": [
+      21,
+      24
+    ],
+    "05-chapter-01.md": [
+      25,
+      33
+    ],
+    "06-chapter-02.md": [
+      34,
+      39
+    ],
+    "07-chapter-03.md": [
+      40,
+      45
+    ],
+    "08-chapter-04.md": [
+      46,
+      58
+    ],
+    "09-chapter-05-part-1.md": [
+      59,
+      69
+    ],
+    "10-chapter-05-part-2.md": [
+      70,
+      71
+    ],
+    "11-chapter-06.md": [
+      72,
+      79
+    ],
+    "12-chapter-07-part-1.md": [
+      80,
+      91
+    ],
+    "13-chapter-07-part-2.md": [
+      92,
+      94
+    ],
+    "14-chapter-08.md": [
+      95,
+      101
+    ],
+    "15-chapter-09.md": [
+      102,
+      109
+    ],
+    "16-chapter-10.md": [
+      110,
+      113
+    ],
+    "17-chapter-11.md": [
+      114,
+      127
+    ],
+    "18-chapter-12.md": [
+      128,
+      133
+    ],
+    "19-appendices.md": [
+      134,
+      138
+    ]
+  }
+}
