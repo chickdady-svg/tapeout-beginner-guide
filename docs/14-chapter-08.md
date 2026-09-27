@@ -98,7 +98,7 @@ TapeOut 上线才一个多月，社区就已经做出了几十个网站和工具
 
 #### 提示
 
-上面肖战羊的 TapeChat 发布帖里也提到了 TAPQQ，帖中给的地址是 1688-0.tapekit.org。那其实是编者的另一个站点 BURNBEM 游戏厅（ tape://1688.0 ，见 8.9）；TAPQQ 本身在 tape://1.888 （1888.tapekit.org）。两个地址本书都在 2026-09-25 用 TapeKit 官方内核读链核对过。
+上面肖战羊的 TapeChat 发布帖里也提到了 TAPQQ，帖中给的地址是 1688-0.tapekit.org。那其实是编者的另一个站点 BURNBEM 游戏厅（ tape://1688.0 ，见 8.9）；TAPQQ 本身在 tape://1.888 （1-888.tapekit.org）。两个地址本书都在 2026-09-25 用 TapeKit 官方内核读链核对过。
 
 想了解 TapeSend 开源后这些客戶端是怎么冒出来的，可以读 YW（@ywweb3）的《TapeSend 诞生 24 小时》（文中也提到了 TAPQQ）。
 
