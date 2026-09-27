@@ -149,7 +149,7 @@ PANews 专栏作者 BruceBlue 在新手指南里提了一个好习惯： **流�
 
 #### 延伸阅读
 
-- [M04] 《从 Mint 到流片：TapeOut 新手第一次上手指南》 —— BruceBlue / PANews（专栏）：https://www.panewslab.com/zh/articles/01a00f **f** -7b7f-70ff-a188-0448b4d31797
+- [M04] 《从 Mint 到流片：TapeOut 新手第一次上手指南》 —— BruceBlue / PANews（专栏）：https://www.panewslab.com/zh/articles/01a00fff-7b7f-70ff-a188-0448b4d31797
 
 - [X15] 《TapeOut 部署、购买与挖矿教程》 —— Mi1997_（@Mizaza1997_） / X：https://x.com/Mizaza1997_/status/2098236991246917749
 

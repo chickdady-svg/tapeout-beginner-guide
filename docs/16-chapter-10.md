@@ -26,15 +26,13 @@
 
 ### 10.2 入门科普（适合读完第 1‒3 章后看）
 
-**M05** 新东西|Something《TapeOut Protocol 小白科普：从与非门到链上挖矿》（PANews，2026-0825）：从 NAND 门讲起，一路讲到挖矿，图多、节奏慢，最适合零基础读者。https://www.panewslab.
+**M05** 新东西|Something《TapeOut Protocol 小白科普：从与非门到链上挖矿》（PANews，2026-0825）：从 NAND 门讲起，一路讲到挖矿，图多、节奏慢，最适合零基础读者。https://www.panewslab.com/zh/articles/01a03820-6305-75be-9e73-12005316087a
 
 <!-- source: tapeout-beginner-guide-v1.5-web.pdf p.109 -->
 
-com/zh/articles/01a03820-6305-75be-9e73-12005316087a
-
 - **M01** 深潮 TechFlow《解读 TapeOut：一个小孩在链上造了一台 CPU》（2026-08-17）：最早的几篇媒体 解读之一，讲项目缘起和首日数据。https://www.techflowpost.com/article/33302
 
-- **M04** BruceBlue《从 Mint 到流片：TapeOut 新手第一次上手指南》（2026-08-18）：早期的操作指南， 界面已有变化，思路仍然适用。https://www.panewslab.com/zh/articles/01a00f **f** -7b7f-70ff-a188-04 48b4d31797
+- **M04** BruceBlue《从 Mint 到流片：TapeOut 新手第一次上手指南》（2026-08-18）：早期的操作指南， 界面已有变化，思路仍然适用。https://www.panewslab.com/zh/articles/01a00fff-7b7f-70ff-a188-0448b4d31797
 
 - **X14** @cupid_elvis《TapeOut Explained: A Beginner’s Guide to NAND, LATCH…》（英文，2026-0912）：适合转发给英文读者。https://x.com/cupid_elvis/status/2098670687296843777
 
