@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: TapeOut Encyclopedia（词条 / 图谱 / 多语言）
+    url: https://github.com/BruceLanLan/tapeout-encyclopedia/issues/new/choose
+    about: 扩写、翻译、知识图谱、Agent 共建 — 不要开在本教材仓
+  - name: tapeout.work（观测数据）
+    url: https://tapeout.work
+    about: 链上观测与公开 API，不是教材正文
+  - name: 跨仓工作流说明
+    url: https://github.com/BruceLanLan/tapeout-encyclopedia/blob/main/docs/CROSS_REPO_WORKFLOW.md
+    about: 三层任务如何串联

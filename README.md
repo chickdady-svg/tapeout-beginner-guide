@@ -4,6 +4,21 @@
 
 当前版本已完成独立校对。正文中的 `<!-- source: ... p.N -->` 注释保留原稿物理页码的溯源映射；原始 PDF 未随公开仓库分发，详细验收报告也未公开分发。
 
+## 姊妹项目（任务请先分流）
+
+本仓库是**稳定教材层**：只做有原 PDF 依据的校对与格式修复，**不扩写**原文没有的内容。
+
+| 层 | 仓库 / 站点 | 做什么 |
+| --- | --- | --- |
+| 教材（本仓） | 这里 | 章节 Markdown、页码溯源、更新版 PDF |
+| 百科 / 图谱 | [BruceLanLan/tapeout-encyclopedia](https://github.com/BruceLanLan/tapeout-encyclopedia) | 可扩写词条、多语言、知识图谱、Agent 共建规范 |
+| 观测数据 | [tapeout.work](https://tapeout.work) | 公开 API / 链上观测（不要把瞬时数字写进教材正文） |
+
+跨仓工作流说明（百科仓维护）：[CROSS_REPO_WORKFLOW.md](https://github.com/BruceLanLan/tapeout-encyclopedia/blob/main/docs/CROSS_REPO_WORKFLOW.md)  
+本仓简版路由：[ECOSYSTEM.md](ECOSYSTEM.md)
+
+在线阅读入口：[TapeOut Daily · 指南](https://tapeoutdaily.ai/learn/guide)
+
 ## 仓库结构
 
 - `docs/index.md`：Markdown 导航首页。
@@ -15,6 +30,7 @@
 - `manifest.md`：更新版页码、原稿溯源页码和图片对应关系。
 - `mkdocs.yml`：本地网站预览配置。
 - `CONTRIBUTING.md`：协作与修改规范。
+- `ECOSYSTEM.md`：与百科 / 数据层的任务分流。
 
 ## 在 GitHub 上阅读
 
@@ -49,5 +65,6 @@ mkdocs serve
 3. 保留 `<!-- source: ... p.N -->` 页码回溯注释。
 4. 提交 Pull Request，说明修改的章节、原 PDF 页码和核对依据。
 5. 由另一位参与者独立复核后再合并。
+6. 若修正影响百科表述，在 [tapeout-encyclopedia](https://github.com/BruceLanLan/tapeout-encyclopedia) 开 `sync(guide): …` Issue 跟进。
 
 详细规则见 [`CONTRIBUTING.md`](CONTRIBUTING.md)。

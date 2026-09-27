@@ -1,0 +1,46 @@
+name: Textbook fix (PDF-backed)
+description: Typo / format / table / image / link fix with original PDF evidence
+title: "fix: "
+labels: ["textbook"]
+body:
+  - type: input
+    id: files
+    attributes:
+      label: Files under docs/
+      placeholder: docs/15-chapter-09.md
+    validations:
+      required: true
+  - type: input
+    id: pages
+    attributes:
+      label: Original PDF page(s) / source comments
+      placeholder: "p.101 · <!-- source: ... p.101 -->"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Fix type
+      options:
+        - 文字核对
+        - 格式清理
+        - 表格修复
+        - 图片修复
+        - 链接修复
+        - manifest 同步
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What is wrong and what should it be?
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This does NOT expand beyond the original PDF content
+          required: true
+        - label: If encyclopedic follow-up is needed, I will open sync(guide) on tapeout-encyclopedia
