@@ -1,5 +1,15 @@
 # 贡献指南
 
+## 任务先分流
+
+| 任务类型 | 去哪里 |
+| --- | --- |
+| 有原 PDF 依据的错字 / 格式 / 表格 / 图片 / 链接修复 | **本仓库** |
+| 翻译、扩写、新工具词条、知识图谱、Agent 共建 | [tapeout-encyclopedia](https://github.com/BruceLanLan/tapeout-encyclopedia) |
+| 实时链上数据 / 市场 / PoD 快照 | [tapeout.work](https://tapeout.work) |
+
+说明见 [`ECOSYSTEM.md`](ECOSYSTEM.md)。
+
 ## 可以修改什么
 
 - 正文修改限于 `docs/*.md`。
@@ -20,6 +30,7 @@
 3. 说明修改属于文字核对、格式清理、表格修复、图片修复还是链接修复。
 4. 提交前检查 Markdown 图片和内部链接均使用相对路径。
 5. 请求另一位参与者依据原 PDF 独立复核；自动转换或自动检查不能替代人工校对。
+6. （可选）若变更会影响百科词条，在 PR 描述里注明，并在百科仓开 `sync(guide)` Issue。
 
 ## 文字和格式原则
 
