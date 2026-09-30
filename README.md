@@ -20,6 +20,10 @@
 
 从 [`docs/index.md`](docs/index.md) 进入目录。所有章节均使用 GitHub Flavored Markdown，可直接在 GitHub 网页中预览。
 
+## 最新投稿
+
+- [《TapeUP全链账本白皮书》学习解读之非技术版](docs/submissions/2026-09-30-tapeup-ledger-nontechnical.md) — 洪七公，2026-09-30
+
 ## 更新版 PDF 与页码
 
 当前 Markdown 可通过 `work/build_updated_pdf.py` 统一排版为 [`outputs/tapeout-beginner-guide-updated.pdf`](outputs/tapeout-beginner-guide-updated.pdf)。该成品共 138 页，目录中的“更新版页码”以这份实际输出为准；括号内的“原稿页码”与正文中的 source 注释仅用于保留溯源映射，原始 PDF 未随公开仓库分发。补充内容没有改变原稿页码编号。
